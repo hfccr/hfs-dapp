@@ -6,28 +6,6 @@ import { Box, Stack, Typography } from '@mui/material'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <Typography variant="h4" sx={{ fontFamily: 'Michroma' }}>
-          Notary+
-        </Typography>
-        <div>
-          <a
-            href="https://fvm.filecoin.io/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="/fvm.svg"
-              alt="FVM Logo"
-              className={styles.vercelLogo}
-              width={80}
-              height={80}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
       <div className={styles.center}>
         <Stack justifyContent="center" alignItems="center" spacing={2}>
           <Image
