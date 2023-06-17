@@ -1,27 +1,27 @@
+"use client"
 import Image from 'next/image'
 import styles from './page.module.css'
+import { Box, Stack, Typography } from '@mui/material'
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
+        <Typography variant="h4" sx={{ fontFamily: 'Michroma' }}>
+          Notary+
+        </Typography>
         <div>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://fvm.filecoin.io/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
+              src="/fvm.svg"
+              alt="FVM Logo"
               className={styles.vercelLogo}
-              width={100}
-              height={24}
+              width={80}
+              height={80}
               priority
             />
           </a>
@@ -29,16 +29,18 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+        <Stack justifyContent="center" alignItems="center" spacing={2}>
+          <Image
+            className={styles.logo}
+            src="/notary.svg"
+            alt="Notary Logo"
+            width={440}
+            height={440}
+            priority
+          />
+          <Typography variant="h4">An Open, Verifiable & Permissionless FVM Fil+ Notary</Typography>
+        </Stack>
       </div>
-
       <div className={styles.grid}>
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
