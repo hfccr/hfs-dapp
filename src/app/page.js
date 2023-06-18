@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.center}>
-        <Stack justifyContent="center" alignItems="center" spacing={2}>
+        <Stack justifyContent="center" alignItems="center" spacing={4}>
           <Image
             className={styles.logo}
             src="/notary.svg"
@@ -27,9 +27,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+            Govern <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Govern the notary and its policies</p>
         </a>
 
         <a
@@ -39,9 +39,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Learn <span>-&gt;</span>
+            Client <span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Get verified and obtain data cap</p>
         </a>
 
         <a
@@ -51,9 +51,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Templates <span>-&gt;</span>
+            Providers <span>-&gt;</span>
           </h2>
-          <p>Explore the Next.js 13 playground.</p>
+          <p>Get verified deals</p>
         </a>
 
         <a
@@ -63,10 +63,10 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Deploy <span>-&gt;</span>
+            Watchdog <span>-&gt;</span>
           </h2>
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            Maintain the notary and its policies by monitoring the deal market for fradulent activity
           </p>
         </a>
       </div>
