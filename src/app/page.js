@@ -29,7 +29,7 @@ export default function Home() {
           <h2>
             Govern <span>-&gt;</span>
           </h2>
-          <p>Govern the notary and its policies</p>
+          <p>Verify clients and data cap requests</p>
         </a>
 
         <a
@@ -41,7 +41,7 @@ export default function Home() {
           <h2>
             Client <span>-&gt;</span>
           </h2>
-          <p>Get verified and obtain data cap</p>
+          <p>Get verified and obtain data cap from the notary</p>
         </a>
 
         <a
@@ -53,7 +53,7 @@ export default function Home() {
           <h2>
             Providers <span>-&gt;</span>
           </h2>
-          <p>Get verified deals</p>
+          <p>Get verified deals from notary clients</p>
         </a>
 
         <a

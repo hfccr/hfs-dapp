@@ -12,7 +12,7 @@ export const { chains, publicClient, webSocketPublicClient } = configureChains(
 );
 
 export const { connectors } = getDefaultWallets({
-    appName: "Notary+",
+    appName: "888",
     projectId: '19410162bf88eb2e1654284fc96274ce',
     chains,
 });

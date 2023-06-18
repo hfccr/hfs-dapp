@@ -25,7 +25,7 @@ const customRainbowKitProperties = {
 const rainbowKitTheme = { ...darkTheme(), ...customRainbowKitProperties };
 
 export const metadata = {
-  title: 'Notary+',
+  title: '888',
   description: 'Trustless Filecoin Notary',
 }
 

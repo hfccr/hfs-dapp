@@ -34,7 +34,7 @@ export default function Header() {
                                         marginRight: 2,
                                     }}
                                 >
-                                    Notary+
+                                    888
                                 </Typography>
                             </Link>
                         </Box>
