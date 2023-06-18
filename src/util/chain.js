@@ -1,13 +1,13 @@
 "use client";
 import { getDefaultWallets } from "@rainbow-me/rainbowkit";
 import { configureChains, createConfig } from "wagmi";
-import { filecoinHyperspace } from "viem/chains";
+import { filecoinCalibration } from "viem/chains";
 import { publicProvider } from "wagmi/providers/public";
 
-export const fvmChain = filecoinHyperspace;
+export const fvmChain = filecoinCalibration;
 
 export const { chains, publicClient, webSocketPublicClient } = configureChains(
-    [filecoinHyperspace],
+    [filecoinCalibration],
     [publicProvider()]
 );
 
