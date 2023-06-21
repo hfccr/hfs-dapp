@@ -38,48 +38,6 @@ export default function Header() {
                                 </Typography>
                             </Link>
                         </Box>
-                        <Box
-                            sx={{
-                                flexGrow: 1,
-                                display: { xs: "none", md: "flex", marginLeft: 2 },
-                            }}
-                        >
-                            <a href="/#protocol-info">
-                                <Button
-                                    sx={{
-                                        my: 2,
-                                        color: "white",
-                                        display: "block",
-                                        marginLeft: 2,
-                                        marginRight: 2,
-                                    }}
-                                >
-                                    PROTOCOL
-                                </Button>
-                            </a>
-                            <Button
-                                sx={{
-                                    my: 2,
-                                    color: "white",
-                                    display: "block",
-                                    marginLeft: 2,
-                                    marginRight: 2,
-                                }}
-                            >
-                                USE CASES
-                            </Button>
-                            <Button
-                                sx={{
-                                    my: 2,
-                                    color: "white",
-                                    display: "block",
-                                    marginLeft: 2,
-                                    marginRight: 2,
-                                }}
-                            >
-                                FAQ
-                            </Button>
-                        </Box>
 
                         <Stack direction="row" justifyContent='center' alignItems="center">
                             <div>

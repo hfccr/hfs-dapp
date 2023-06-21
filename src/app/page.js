@@ -1,6 +1,7 @@
 "use client"
 import Image from 'next/image'
 import styles from './page.module.css'
+import Link from "next/link";
 import { Box, Stack, Typography } from '@mui/material'
 
 export default function Home() {
@@ -20,20 +21,17 @@ export default function Home() {
         </Stack>
       </div>
       <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+        <Link href="/dapp/govern/power"
           className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
         >
           <h2>
             Govern <span>-&gt;</span>
           </h2>
           <p>Verify clients and data cap requests</p>
-        </a>
+        </Link>
 
         <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://888-voting.netlify.app/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -45,7 +43,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://888-voting.netlify.app/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -57,7 +55,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="https://888-voting.netlify.app/"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
