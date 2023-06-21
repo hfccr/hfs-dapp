@@ -24,11 +24,6 @@ const customRainbowKitProperties = {
 };
 const rainbowKitTheme = { ...darkTheme(), ...customRainbowKitProperties };
 
-export const metadata = {
-  title: '888',
-  description: 'Trustless Filecoin Notary',
-}
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
